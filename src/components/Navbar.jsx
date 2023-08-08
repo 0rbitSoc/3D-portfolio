@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import { styles } from '@/style'
-import { navLink } from '@/constants/index'
-import { logo, menu, close } from '@/assets'
+import { styles } from '../style'
+import { navLink } from '../constants/index'
+import { logo, menu, close } from '../assets'
 
 const Navbar = () => {
 
-    const [active, setActive] = useState('')
+    const [active, setActive] = useState("")
 
   return (
     <nav
@@ -39,7 +39,41 @@ const Navbar = () => {
                     window.scrollTo(0, 0)
                 }}
             >
+                <img src={logo} alt='logo' 
+                    className='w-9 h-9 object-contain'
+                />
+                <p className='
+                    text-white
+                    text-[18px]
+                    font-bold
+                    cursor-pointer
+                '>
+                    10X <span className='
+                        sm:block hidden
+                    '>| 0rbit </span></p>
             </Link>
+            <ul className='
+                list-none
+                hidden
+                sm:flex
+                flex-row
+                gap-10
+            '>
+                {navLink.map((link) => (
+                    <li 
+                        key={link.id}
+                        className={`
+                            ${
+                                active === link.title
+                                ? "text-white" : "text-secondary"
+                            } hover:text-white text-[18px] font-medium cursor-pointer
+                        `}
+                        onClick={() => setActive(link.title)}
+                    >
+                        <a href={`#${link.id}`}>{link.title}</a>
+                    </li>
+                ))}
+            </ul>
         </div>
     </nav>
   )
