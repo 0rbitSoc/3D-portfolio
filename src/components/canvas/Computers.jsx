@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { Suspense, useEffect, useState } from 'react'
+import { Canvas } from '@react-three/fiber'
+import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
 
-const Computers = () => {
+import CanvasLoader from '../Loader';
+
+const ComputersCanvas = () => {
   return (
-    <div>Computers</div>
+    <div>ComputerCanvas</div>
   )
 }
 
-export default Computers
+export default ComputersCanvas
