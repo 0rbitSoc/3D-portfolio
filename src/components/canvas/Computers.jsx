@@ -4,8 +4,11 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { DirectionalLight } from "three";
 
 import CanvasLoader from "../Loader";
+import PropTypes from 'prop-types';
 
+// eslint-disable-next-line react/prop-types
 const Computers = ({ isMobile }) => {
+
   const lightColor = 0xffffff; // White color
   const lightIntensity = 1;
 
@@ -35,6 +38,8 @@ const Computers = ({ isMobile }) => {
     </mesh>
   );
 };
+
+
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -82,4 +87,6 @@ const ComputersCanvas = () => {
   );
 };
 
-export default ComputersCanvas;
+
+
+export default ComputersCanvas
