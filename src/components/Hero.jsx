@@ -54,7 +54,7 @@ const Hero = () => {
               items-start
               p-2
             '>
-                <motion.dev
+                <motion.div
                   animate={{
                     y: [0, 24, 0]
                   }}
