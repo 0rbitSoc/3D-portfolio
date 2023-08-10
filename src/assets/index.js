@@ -7,19 +7,23 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
+
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import node from "./tech/node.png";
+import react from "./tech/react.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import deno from './tech/deno.png';
+import jenkins from "./tech/jenkins.png";
+import next from "./tech/next.png";
+import rust from "./tech/rust.png";
+import solidity from "./tech/solidity.png";
+import storybook from "./tech/storybook.png";
+import eleventy from "./tech/eleventy.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -39,18 +43,20 @@ export {
   github,
   menu,
   close,
-  css,
   docker,
   figma,
   git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
+  deno,
+  jenkins,
+  next,
+  node,
+  react,
+  rust,
+  solidity,
+  storybook,
   tailwind,
   typescript,
+  eleventy,
   threejs,
   meta,
   shopify,

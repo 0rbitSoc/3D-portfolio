@@ -3,15 +3,15 @@ import {
     backend,
     creator,
     web,
-    javascript,
+    deno,
+    jenkins,
+    next,
+    react,
+    rust,
+    solidity,
+    storybook,
     typescript,
-    html,
-    css,
-    reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
     docker,
@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    eleventy,
   } from "../assets/index";
 
   const navLink = [
@@ -61,16 +62,16 @@ import {
 
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "NextJS",
+      icon: next,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "DenoJS",
+      icon: deno,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Jenkins",
+      icon: jenkins,
     },
     {
       name: "TypeScript",
@@ -78,23 +79,19 @@ import {
     },
     {
       name: "React JS",
-      icon: reactjs,
+      icon: react,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Rust",
+      icon: rust,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Solidity",
+      icon: solidity,
     },
     {
       name: "Three JS",
@@ -111,6 +108,14 @@ import {
     {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "StorybookJS",
+      icon: storybook,
+    },
+    {
+      name: "11ty",
+      icon: eleventy,
     },
   ];
 
