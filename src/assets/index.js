@@ -21,7 +21,6 @@ import jenkins from "./tech/jenkins.png";
 import next from "./tech/next.png";
 import rust from "./tech/rust.png";
 import solidity from "./tech/solidity.png";
-import storybook from "./tech/storybook.png";
 import eleventy from "./tech/eleventy.png";
 
 
@@ -53,7 +52,6 @@ export {
   react,
   rust,
   solidity,
-  storybook,
   tailwind,
   typescript,
   eleventy,

@@ -9,7 +9,6 @@ import {
     react,
     rust,
     solidity,
-    storybook,
     typescript,
     tailwind,
     git,
@@ -108,10 +107,6 @@ import {
     {
       name: "docker",
       icon: docker,
-    },
-    {
-      name: "StorybookJS",
-      icon: storybook,
     },
     {
       name: "11ty",
