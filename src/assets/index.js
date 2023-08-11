@@ -29,9 +29,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import aurahomepage from "./aurahomepage.png";
+import spot from "./spot.png";
+import auraai from "./auraai.png";
 
 export {
   logo,
@@ -60,7 +60,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  aurahomepage,
+  auraai,
+  spot,
 };

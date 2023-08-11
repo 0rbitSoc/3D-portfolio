@@ -18,9 +18,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    auraai,
+    aurahomepage,
+    spot,
     threejs,
     eleventy,
   } from "../assets/index";
@@ -198,54 +198,12 @@ import {
 
   const projects = [
     {
-      name: "Car Rent",
+      name: "Spot",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, play and save songs available on platform. Users can also upload their own songs and share it with community.",
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
@@ -253,12 +211,54 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: spot,
+      source_code_link: "https://github.com/0rbitSoc/spot",
+    },
+    {
+      name: "Aura Home",
+      description:
+        "Home page of web app Aura.ai made with docusaurus which is a simple and static website. Have fully functional blog feature and toggle light and dark mode.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "docusaurus",
+          color: "green-text-gradient",
+        },
+        {
+          name: "markdown",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: aurahomepage,
+      source_code_link: "https://github.com/0rbitSoc/aura.ai",
+    },
+    {
+      name: "Aura.ai",
+      description:
+        "An advanced AI chatbot creation app where you can create customised AI chatbots and share them with the world! Includes world class features like AI meory storage, AI chat and much more!  ",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "clerk",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "react",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: auraai,
+      source_code_link: "https://github.com/0rbitSoc/aura",
     },
   ];
 
